@@ -4,8 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kdubb</groupId>
-    <artifactId>spring-boot-simple</artifactId>
+    <artifactId>spring-boot-deployable-war</artifactId>
     <version>0.1.0</version>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -64,6 +65,10 @@
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
