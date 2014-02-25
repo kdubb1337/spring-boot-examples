@@ -14,7 +14,6 @@
     </parent>
 
     <properties>
-        <start-class>com.kdubb.springboot.Application</start-class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
