@@ -1,0 +1,5 @@
+
+server:
+    port: 9000
+
+myvar: You started on default
