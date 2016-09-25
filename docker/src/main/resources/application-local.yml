@@ -1,0 +1,29 @@
+myvar: You started on local
+
+#Environment specific DB configs
+db.driver: com.mysql.jdbc.Driver
+db.url: jdbc:mysql://localhost:3306/
+db.schema: socialrocket
+db.username: root
+db.password: 
+
+#JPA
+jpa.ddl: update
+
+schedule.listener: -1
+
+facebook.appKey: 289174637874580
+facebook.appSecret: a406eeda033747c157ef4a28115d95ad
+
+twitter.appKey: MalaI11ooMnFzkKStS82eKmXd
+twitter.appSecret: PXkoBYrwSLz92923mmZZTp8cNCJUZGjaPiTeK1hbzHysF7efbB
+
+instagram.appKey: 06db06f86b764fa7a540c5e39995ec44
+instagram.appSecret: 89480ef617044d6d860dc9b86f8d532b
+
+mongo.db:
+  host: oceanic.mongohq.com
+  port: 10021
+  name: LOCALDB
+  username: SP8xN3FQzrWpVqE9
+  password: 6TCrsneeKjV3bmj6

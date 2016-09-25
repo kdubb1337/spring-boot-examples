@@ -3,3 +3,55 @@ server:
     port: 9000
 
 myvar: You started on default
+
+#JPA
+jpa.driver: org.hibernate.dialect.MySQLDialect
+jpa.log.sql: false
+jpa.ddl: validate
+
+#Database
+db.minSize: 2
+db.maxSize: 10
+db.maxStatements: 0
+db.testPeriod: 30
+db.maxIdle: 30
+db.acquireIncrement: 3
+db.unreturnedConnectionTimeout: 0
+db.jdbcTimeoutInSec: 20
+
+mongo.db2.host: 
+mongo.db2.port: 
+mongo.db2.name: 
+mongo.db2.username: 
+mongo.db2.password: 
+
+#Threadpool
+pool.maxSize: 10
+pool.queueSize: 100
+
+schedule.listener: 60000
+
+
+facebook.appKey: 176716328660
+facebook.appSecret: 5bc4d27d45f22d7172002b66b163e3d0
+facebook.appNamespace: socialshowcase
+
+twitter.appKey: YR571S2JiVBOFyJS5MEg
+twitter.appSecret: Kb8hS0luftwCJX3qVoyiLUMfZDtK1EozFoUkjNLUMx4
+
+linkedin.appKey: 754fvz2njoxqfm
+linkedin.appSecret: rolyKemRYmBXxlDJ
+
+tumblr.appKey: h0gLm5ZRsWu9ymKEZvLdE7jPeoPPT1bQSMeomyzr9IbfSo6TNV
+tumblr.appSecret: Vw8Mkxqzo2D0yrM61w0YUVkXgwBqTNQNTM0Pv4JOrE3VGEcVdP
+
+google.appKey: 229115584176-bt4h07590lrrbhhoee6gt0b3uclmof45.apps.googleusercontent.com
+google.appSecret: A_rPE6tcGjvFPax-lMMt7wYY
+
+instagram.appKey: 06db06f86b764fa7a540c5e39995ec44
+instagram.appSecret: 89480ef617044d6d860dc9b86f8d532b
+
+ses.appKey: AKIAJROGUWQTUUZMJ5YA
+ses.appSecret: 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
+ses.email.fromName: Pump Social
+ses.email.fromAddress: support@pumpsocial.com
