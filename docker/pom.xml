@@ -88,7 +88,7 @@
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<!-- <dockerHost>http://localhost:2232</dockerHost> -->
-					<dockerHost>http://192.168.2.22:2375</dockerHost>
+					<dockerHost>http://192.168.2.96:2375/</dockerHost>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
@@ -96,7 +96,12 @@
 							<include>${project.build.finalName}.jar</include>
 						</resource>
 					</resources>
+					<imageTags>
+			           <imageTag>${project.version}</imageTag>
+			           <imageTag>latest</imageTag>
+			        </imageTags>
 				</configuration>
+				
 			</plugin>
         </plugins>
     </build>
